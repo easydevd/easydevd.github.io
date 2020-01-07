@@ -24,7 +24,7 @@ excerpt_separator: <!--more-->
 다음버튼을 누르다보면 알아서 설치된답니다.  
 
 설치가 완료되면, 아래 prompt를 실행시켜주세요.  
-![Start Command Prompt With Ruby 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_2.jpg){:data-height="400"}
+![Start Command Prompt With Ruby 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_2.JPG){:data-height="400"}
 
 ## 3. JEKYLL 설치
 PROMPT가 실행되면, 아래 명령어들을 순서로 입력해주세요.  
