@@ -23,29 +23,36 @@ excerpt_separator: <!--more-->
 다음버튼을 누르다보면 알아서 설치된답니다.  
 
 설치가 완료되면, 아래 prompt를 실행시켜주세요.  
-![Start Command Prompt With Ruby 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_2.jpg){:data-width="1920" data-height="1200"}
+![Start Command Prompt With Ruby 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_2.jpg){:data-height="700"}
 
 ## 3. JEKYLL 설치
 PROMPT가 실행되면, 아래 명령어들을 순서로 입력해주세요.  
 
+~
 gem install jekyll  
 gem install minima  
 gem install bundler  
 gem install jekyll-feed  
 gem install tzinfo-data  
+~
 
 위 패키지 들이 모두 정상적으로 설치되면, 로컬에서 서버를 구동해 볼 수 있습니다.
 
 샘플 블로그를 하나 만들어볼께요.  
 
+~
 jekyll new HelloBlog  
+~
+
 위 명령어 실행 후, 아래 그림처럼 정상적으로 생성 완료된것을 확인해줍니다.  
 ![Jekyll Site Installed]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_4.jpg){:data-width="1920" data-height="1200"}
 
 위 샘플 블로그를 실행시켜보겠습니다.  
 
+~
 cd HelloBlog  
 bundle exec jekyll serve  
+~
 
 명령어 실행 후, http://127.0.0.1:4000/ 로 접속해 보세요.  
 ![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_5.jpg){:data-width="1920" data-height="1200"}
