@@ -36,21 +36,22 @@ gem install tzinfo-data
 
 위 패키지 들이 모두 정상적으로 설치되면, 로컬에서 서버를 구동해 볼 수 있습니다.
 
-샘플 블로그를 하나 만들어볼께요.
-jekyll new HelloBlog
-위 명령어 실행 후, 아래 그림처럼 정상적으로 생성 완료된것을 확인해줍니다.
+샘플 블로그를 하나 만들어볼께요.  
+
+jekyll new HelloBlog  
+위 명령어 실행 후, 아래 그림처럼 정상적으로 생성 완료된것을 확인해줍니다.  
 ![Jekyll Site Installed]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_4.JPG){:data-width="1920" data-height="1200"}
 
 위 샘플 블로그를 실행시켜보겠습니다.  
 
-cd HelloBlog
+cd HelloBlog  
 bundle exec jekyll serve  
 
 명령어 실행 후, http://127.0.0.1:4000/ 로 접속해 보세요.  
 ![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_5.JPG){:data-width="1920" data-height="1200"}
 위 처럼, 사이트가 구동 된다면 성공적으로 JEKYLL 설치가 완료된 것입니다.  
 
-그리고 아까 HelloBlog를 Install했던 경로로 들어가면
+그리고 아까 HelloBlog를 Install했던 경로로 들어가면  
 ![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_6.JPG){:data-width="1920" data-height="1200"}
 위 파일들을 확인할 수 있습니다.  
 
