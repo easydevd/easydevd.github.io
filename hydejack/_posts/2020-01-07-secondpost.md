@@ -31,7 +31,7 @@ NEXT 버튼을 누릅니다.
 ![GIT BASH_STEP2]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_4.jpg)
 [ Additional Icons - On the Desktop ] 바탕화면에 바로가기 아이콘 추가
 [ Windows Explorer integration ] 마우스 오른쪽 버튼 클릭 시, GIT 연결 옵션 추가
-![마우스 우클릭시]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_15.jpg)
+![마우스 우클릭시]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_15.JPG)
 [ Git LFS (Large File Support) ] 용량이 큰 파일 지원  
 [ Associate .git* configuration files with the default text editor ] .gif* 구성파일을 기본 텍스트 편집기와 연결  
 [ Associate .sh files to be run with Bash ] .sh 파일 Bash에서 실행 가능하게 하기
