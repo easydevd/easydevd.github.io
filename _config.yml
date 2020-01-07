@@ -4,7 +4,7 @@
 # IMPORTANT: Set the URL of your site.
 # Set to https://<username>.github.io when hosting on GitHub Pages
 # (unless you are using a custom domain).
-url:                   https://domain.tld
+url:                  https://easydevd.github.io/
 
 # IMPORTANT: Set The "base URL" of your site.
 # When your site sits in a subdirectory, set to /<name of directory>
@@ -19,7 +19,7 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 EASYDAY
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
@@ -28,9 +28,7 @@ description:           >
   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
-tagline:               >
-  "Best Jekyll Theme by a Mile".
-  Open `_config.yml` to edit this text.
+tagline:        Developer 
 
 # A list of keywords for your blog
 keywords:              []
@@ -42,8 +40,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                SUNGMI
+  email:               sungmia98@gmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -326,7 +324,7 @@ relative_links:
 titles_from_headings:
   strip_title:         true
   collections:         true
-  
+
 replace_img:
   re_img:              <img\s*(?<attrs>.*?)\s*/>
   re_ignore:           (re|data)-ignore
