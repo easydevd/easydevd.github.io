@@ -17,48 +17,52 @@ excerpt_separator: <!--more-->
 ## 2. RUBY 설치
 윈도우는 루비가 기본으로 설치되어 있지 않기 때문에, 우선 루비를 다운받아야 합니다.  
 아래 링크에서 다운로드 해주세요.  
+  
 [루비 다운로드](https://rubyinstaller.org/downloads/)  
 ![Ruby+Devkit 2.6.5-1 (x64) 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_1.JPG){:data-width="1920" data-height="1200"}
 
 다음버튼을 누르다보면 알아서 설치된답니다.  
 
 설치가 완료되면, 아래 prompt를 실행시켜주세요.  
-![Start Command Prompt With Ruby 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_2.jpg){:data-height="700"}
+![Start Command Prompt With Ruby 클릭]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_2.JPG){:data-height="400"}
 
 ## 3. JEKYLL 설치
 PROMPT가 실행되면, 아래 명령어들을 순서로 입력해주세요.  
 
-~
+~~~
 gem install jekyll  
 gem install minima  
 gem install bundler  
 gem install jekyll-feed  
 gem install tzinfo-data  
-~
+~~~
 
 위 패키지 들이 모두 정상적으로 설치되면, 로컬에서 서버를 구동해 볼 수 있습니다.
 
 샘플 블로그를 하나 만들어볼께요.  
 
-~
+~~~
 jekyll new HelloBlog  
-~
+~~~
 
 위 명령어 실행 후, 아래 그림처럼 정상적으로 생성 완료된것을 확인해줍니다.  
+  
 ![Jekyll Site Installed]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_4.jpg){:data-width="1920" data-height="1200"}
 
 위 샘플 블로그를 실행시켜보겠습니다.  
 
-~
+~~~
 cd HelloBlog  
 bundle exec jekyll serve  
-~
+~~~
 
-명령어 실행 후, http://127.0.0.1:4000/ 로 접속해 보세요.  
+위 명령어 실행 후, http://127.0.0.1:4000/ 로 접속해 보세요.  
+  
 ![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_5.jpg){:data-width="1920" data-height="1200"}
 위 처럼, 사이트가 구동 된다면 성공적으로 JEKYLL 설치가 완료된 것입니다.  
 
 그리고 아까 HelloBlog를 Install했던 경로로 들어가면  
+  
 ![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_6.jpg){:data-width="1920" data-height="1200"}
 위 파일들을 확인할 수 있습니다.  
 
