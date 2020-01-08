@@ -102,7 +102,7 @@ Next 클릭
 ![GIT BASH_STEP8]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_10.jpg){:style="display:block; height:408px;"}
 
 |OPTION|EXPLAIN|  
-|---|---|
+|---|---|  
 | Use MinTTY(the default terminal of MSYS2) | MinTTY terminal emulator 사용  |  
 | Use Windows' default console window | Windows 기본 콘솔 사용  |  
 어떤 터미널 에뮬레이터를 사용할건지 선택해주세요.  
@@ -165,7 +165,7 @@ Settings 탭의 [Repository name]을 변경해 줍니다.
 여기까지 따라하면, 위의 도메인으로 접속했을때 블로그를 볼 수 있습니다.
 ![GITHUB BLOG]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_23.JPG)
 
-#3 GIT BASH, GIT 과 연결하기
+## 3. GIT BASH, GIT 과 연결하기
 github 사이트에서도 파일을 수정하거나 코딩하는 등의 작업을 충분히 할 수 있지만, commit작업만 가능합니다.  
 파일을 만들면 무조건 커밋해야 하기 때문에 저는 github사이트에서 직접 작업하지 않고, ATOM에서 작업한 후 Git Bash를 통해 Commit하는 방식으로 개발할 예정입니다.  
 <br>
