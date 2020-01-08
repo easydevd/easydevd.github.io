@@ -33,7 +33,7 @@ GIT BASH는 윈도우에서 GIT을 사용하기 위해 필요합니다.
 
 다운로드가 완료되면, 설치파일을 실행시켜 주세요.  
 
-![GIT BASH_STEP1]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_3.jpg){:style both:clear; height:408px;}
+![GIT BASH_STEP1]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_3.jpg){:style="both:clear; height:408px;"}
 NEXT 버튼을 누릅니다.
 
 
