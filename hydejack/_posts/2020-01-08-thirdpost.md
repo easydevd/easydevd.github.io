@@ -21,10 +21,10 @@ cd C:/
 mkdir GIT(작업할 폴더 이름)
 ~~~
 
-|명령어|내용|  
-|---|---|  
-| cd | Change Directory 경로 이동 |  
-| mkdir | Make Directory 폴더 생성 |  
+|명령어|내용|   
+|---|---|   
+| cd | Change Directory 경로 이동 |   
+| mkdir | Make Directory 폴더 생성 |   
 <br>
 
 여기까지 따라해 본인의 워크스페이스 경로를 만들었다면, 이제 github에서 프로젝트 소스를 다운받아 볼께요.  
