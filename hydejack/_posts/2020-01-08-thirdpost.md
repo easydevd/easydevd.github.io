@@ -42,11 +42,11 @@ git clone "GITHUB 프로젝트 URL"
 
 위 **"GITHUB 프로젝트 URL"** 은 전 포스팅에서 fork한 **Repository URL** 을 작성해주시면 됩니다.  
 보통 "https://github.com/[GITHUB아이디]/[GITHUB아이디].github.io"일거라고 생각 되네요.  
-<br>
+<br><br>
 저의 경우는 **https://github.com/easydevd/easydevd.github.io** 였습니다.  
 그래도 이해가 안가시는 분들은  
 ![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_1.jpg)
-을 복붙해주세요.  
+위 URL을 복붙해주세요.  
 
 명령어를 모두 실행하면, 아래와 같이 파일이 모두 다운로드 되었음을 확인할 수 있습니다.
 ![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_2.jpg)

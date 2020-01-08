@@ -156,20 +156,20 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 우선 Hydejack 를 복사해야 합니다.  
 [Hydejack GITHUB](https://github.com/hydecorp/hydejack)
 에 접속해 Fork를 눌러 주세요.  
-![FORK PROJECT]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_18.jpg){:style="display:block; height:408px;"}
+![FORK PROJECT]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_18.jpg){:style="display:block; height:408px;border:solid 1px #00000052;"}
 
 누르면 아래와 같은 화면이 나오며 프로젝트가 복사됩니다.  
 복사가 완료될때까지 조금 기다려주세요.
-![FORK PROJECT]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_20.jpg){:style="display:block; height:408px;"}
+![FORK PROJECT]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_20.jpg){:style="display:block; height:408px;border:solid 1px #00000052;"}
 
 <br><br>
 
 복사가 완료되면,
-![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_21.jpg){:style="display:block;"}
+![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_21.jpg){:style="display:block;border:solid 1px #00000052;"}
 **[Settings] 탭의 [Repository name]을 변경해 줍니다.**
 
 
-![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; "}
+![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; border:solid 1px #00000052;"}
 위처럼 **자신의 GITHUB 아이디.github.io** 로 변경한 후 [Rename]버튼을 클릭해주세요.  
 저는 easydevd가 아이디이기 때문에 **easydevd.github.io** 로 Rename했습니다.
 

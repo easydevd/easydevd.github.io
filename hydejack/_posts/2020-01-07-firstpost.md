@@ -58,12 +58,12 @@ bundle exec jekyll serve
 
 위 명령어 실행 후, http://127.0.0.1:4000/ 로 접속해 보세요.  
 
-![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_5.jpg){:data-width="1920" data-height="1200"}
+![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_5.jpg){:data-width="1920" data-height="1200" style="border:solid 1px #00000052;"}
 위 처럼, 사이트가 구동 된다면 성공적으로 JEKYLL 설치가 완료된 것입니다.  
 
 그리고 아까 HelloBlog를 Install했던 경로로 들어가면  
 
-![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_6.jpg){:data-width="1920" data-height="1200"}
+![]({{ site.baseurl }}/assets/img/docs/blog_firstpost/firstpost_6.jpg){:data-width="1920" data-height="1200" style="border:solid 1px #00000052;"}
 위 파일들을 확인할 수 있습니다.  
 
 보통 GITHUB 블로그 만들 때, JEKYLL 템플릿을 가져다 많이 사용하는데,  
