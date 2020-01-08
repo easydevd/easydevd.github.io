@@ -18,33 +18,40 @@ GIT BASH는 윈도우에서 GIT을 사용하기 위해 필요합니다.
 
 위 Winodows를 클릭하면 알아서 설치파일이 다운로드 됩니다.  
 혹시 다운로드가 안되면, 아래 파일들 중 본인 PC에 맞는 파일을 눌러 다시 다운로드 해주세요.  
+
+
 ![GIT BASH DOWNLOAD]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_14.JPG)
 
+~~~
 보통 **64-bit Git for Windows Setup.** 을 다운로드 받으실 것 같은데, 이 파일은 실행파일이고,  
 아래 **64-bit Git for Windows Portable.** 은 무설치 버전 파일입니다.  
-쉽게, 아래 Portable을 다운로드 받으면 흔히 아는 exe파일이 아닌 7z   
-압축파일이 다운로드 됩니다.
+~~~
+
+쉽게, 아래 Portable을 다운로드 받으면 흔히 아는 exe파일이 아닌 7z 압축파일이 다운로드 됩니다.
 
 저는 exe파일로 설치 진행했습니다.  
 
 다운로드가 완료되면, 설치파일을 실행시켜 주세요.  
 
-![GIT BASH_STEP1]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_3.jpg){:data-height="408"}
+![GIT BASH_STEP1]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_3.jpg){:style both:clear; height:408px;}
 NEXT 버튼을 누릅니다.
 
 
-![GIT BASH_STEP2]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_4.jpg){:data-height="408"}
+![GIT BASH_STEP2]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_4.jpg){:style both:clear; height:408px;}
 
 ~~~
 [ Additional Icons - On the Desktop ] 바탕화면에 바로가기 아이콘 추가
-[ Windows Explorer integration ] 마우스 오른쪽 버튼 클릭 시, GIT 연결 옵션 추가  
-![마우스 우클릭시]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_15.jpg)
+[ Windows Explorer Integration ] 마우스 오른쪽 버튼 클릭 시, GIT 연결 옵션 추가  
 [ Git LFS (Large File Support) ] 용량이 큰 파일 지원  
 [ Associate .git* configuration files with the default text editor ] .gif* 구성파일을 기본 텍스트 편집기와 연결  
 [ Associate .sh files to be run with Bash ] .sh 파일 Bash에서 실행 가능하게 하기  
 [ Use a TrueType font in all console windows ] 윈도우 콘솔에서 트루타입 폰트를 사용  
 [ Check daily for Git for Windows updates ] 매일 업데이트 유무 확인하기  
 ~~~
+
+
+* 참조 : Windows Explorer Integration
+![마우스 우클릭시]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_15.jpg)  
 저는 그냥 기본 체크되어 있는대로 설치 진행했습니다.
 
 
