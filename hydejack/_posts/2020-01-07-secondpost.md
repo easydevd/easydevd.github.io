@@ -14,14 +14,14 @@ GIT BASH는 윈도우에서 GIT을 사용하기 위해 필요합니다.
 
 저는 윈도우용을 다운로드 했습니다.   
 [GIT BASH 다운로드](https://git-scm.com/downloads)  
-![GIT BASH]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_2.JPG)
+![GIT BASH]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_2.JPG){:style="display:block; border:solid 1px #00000052;"}
 
 위 Winodows를 클릭하면 알아서 설치파일이 다운로드 됩니다.  
 
 <br><br>
 
 혹시 다운로드가 안되면, 아래 파일들 중 본인 PC에 맞는 파일을 눌러 다시 다운로드 해주세요.  
-![GIT BASH DOWNLOAD]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_14.JPG){:style="width:400px;"}
+![GIT BASH DOWNLOAD]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_14.JPG){:style="width:400px;border:solid 1px #00000052;"}
 
 
 보통 **64-bit Git for Windows Setup.** 을 다운로드 받으실 것 같은데, 이 파일은 실행파일이고,  
@@ -151,7 +151,7 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 사용하고 싶은 테마를 골랐다면, 다운로드 버튼을 눌러 개인PC에 파일을 받은 후, GITHUB에 올리는 방법이 있고, 아니면 GITHUB에서 프로젝트를 옮긴 후 개인 PC로 다운로드 받는 방법이 있습니다.  
 저는 후자의 방법을 이용해 볼게요.  
 
-<br><br><br>
+<br><br>
 
 우선 Hydejack 를 복사해야 합니다.  
 [Hydejack GITHUB](https://github.com/hydecorp/hydejack)
@@ -168,6 +168,7 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 ![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_21.jpg){:style="display:block;border:solid 1px #00000052;"}
 **[Settings] 탭의 [Repository name]을 변경해 줍니다.**
 
+<br>
 
 ![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; border:solid 1px #00000052;"}
 위처럼 **자신의 GITHUB 아이디.github.io** 로 변경한 후 [Rename]버튼을 클릭해주세요.  
@@ -183,7 +184,7 @@ github 사이트에서도 파일을 수정하거나 코딩하는 등의 작업�
 <br>
 위에서 설치한 Git Bash에 제 github 계정정보를 연결시켜 보겠습니다.
 
-<br><br>
+<br>
 
 우선 GIT BASH를 실행시켜주세요.  
 ![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_24.jpg)

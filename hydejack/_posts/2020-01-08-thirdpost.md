@@ -22,9 +22,9 @@ mkdir GIT(작업할 폴더 이름)
 ~~~
 
 |명령어|내용|  
-|---|---|
+|---|---|  
 | cd | Change Directory 경로 이동 |  
-| mkdir | Make Directory 폴더 생성 |   
+| mkdir | Make Directory 폴더 생성 |  
 <br>
 
 여기까지 따라해 본인의 워크스페이스 경로를 만들었다면, 이제 github에서 프로젝트 소스를 다운받아 볼께요.  
@@ -47,7 +47,7 @@ git clone "GITHUB 프로젝트 URL"
 <br><br>
 저의 경우는 **https://github.com/easydevd/easydevd.github.io** 였습니다.  
 그래도 이해가 안가시는 분들은  
-![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_1.jpg)
+![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_1.jpg){:style="display:block; border:solid 1px #00000052;"}
 위 URL을 복붙해주세요.  
 
 <br>
@@ -61,10 +61,10 @@ git clone "GITHUB 프로젝트 URL"
 
 ## 2. ATOM 설치
 이제 위에서 다운로드 받은 파일들을 수정할 편집기가 필요합니다.  
-본인에게 편한 편집기라면 어느것이든 상관없어요. (Ex. Brackets...)
+본인에게 편한 편집기라면 어느것이든 상관없어요. (Ex. Brackets...)  
 저는 ATOM을 설치해 보겠습니다.  
 <br>
-[ATOM 사이트](https://atom.io/)에 접속해 [DOWNLOAD]버튼을 눌러 설치를 진행해주세요.
+[ATOM 사이트](https://atom.io/)에 접속해 [DOWNLOAD]버튼을 눌러 설치를 진행해주세요.  
 ![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_3.jpg)
 
 
