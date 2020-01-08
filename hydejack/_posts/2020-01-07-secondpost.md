@@ -132,22 +132,29 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 [JEKYLL THEME 사이트](http://jekyllthemes.org/)  <br>
 ![JEKYLL THEME]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_16.JPG)
 
+<br><br>
+
 저는 Hydejack 테마를 사용했습니다.  
-같은 테마를 사용하실 분은  
-[Hydejack 테마](http://jekyllthemes.org/themes/hydejack/)  <br>
+같은 테마를 사용하실 분은
+[Hydejack 테마](http://jekyllthemes.org/themes/hydejack/)
 를 참조해 주세요.
 ![GIT BASH_STEP11]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_17.jpg)
 
-단, Hydejack 은 아래 보시다시피 GPL-3.0 라이센스이니 이 점 참고 하시기 바랍니다. 되도록이면 MIT LICENSE를 사용하는게 좋아요.  
+단, Hydejack 은 아래 보시다시피 GPL-3.0 라이센스이니 이 점 참고 하시기 바랍니다.  
+되도록이면 MIT LICENSE를 사용하는게 좋아요.  
 라이센스 관련 설명은 아래 블로그 링크 들어가서 읽어보시면 도움될것 같습니다 :)  
-[LICENSE 정리](https://m.blog.naver.com/occidere/220850682345)  <br>
+[LICENSE 정리](https://m.blog.naver.com/occidere/220850682345)  
+
+<br><br>
 
 사용하고 싶은 테마를 골랐다면, 다운로드 버튼을 눌러 개인PC에 파일을 받은 후, GITHUB에 올리는 방법이 있고, 아니면 GITHUB에서 프로젝트를 옮긴 후 개인 PC로 다운로드 받는 방법이 있습니다.  
 저는 후자의 방법을 이용해 볼게요.  
 
-우선 Hydejack 를 복사해야 합니다.
-[Hydejack 복사](https://github.com/hydecorp/hydejack)  
-에 접속해 Fork를 눌러 주세요.
+<br><br><br>
+
+우선 Hydejack 를 복사해야 합니다.  
+[Hydejack GITHUB](https://github.com/hydecorp/hydejack)
+에 접속해 Fork를 눌러 주세요.  
 ![FORK PROJECT]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_18.jpg){:style="display:block; height:408px;"}
 
 누르면 프로젝트가 복사됩니다.  
@@ -155,11 +162,11 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 ![FORK PROJECT]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_20.jpg){:style="display:block; height:408px;"}
 
 복사가 완료되면,
-![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_21.jpg){:style="display:block; height:408px;"}
+![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_21.jpg){:style="display:block;"}
 Settings 탭의 [Repository name]을 변경해 줍니다.  
 
 
-![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; height:408px;"}
+![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; "}
 위처럼 [자신의 GITHUB 아이디].github.io로 변경한 후 [Rename]버튼을 클릭해주세요.  
 
 여기까지 따라하면, 위의 도메인으로 접속했을때 블로그를 볼 수 있습니다.
