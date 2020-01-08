@@ -42,15 +42,16 @@ NEXT 버튼을 누릅니다.
 <br><br>
 ![GIT BASH_STEP2]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_4.jpg){:style="display:block; height:408px;"}
 
-|OPTION|EXPLAIN|
-|---|---:|
-| Additional Icons - On the Desktop | 바탕화면에 바로가기 아이콘 추가 |
-| Windows Explorer Integration | 마우스 오른쪽 버튼 클릭 시, GIT 연결 옵션 추가  |
-| Git LFS (Large File Support) | 용량이 큰 파일 지원  |
-| Associate .git* configuration files with the default text editor | .gif* 구성파일을 기본 텍스트 편집기와 연결  |
-| Associate .sh files to be run with Bash | .sh 파일 Bash에서 실행 가능하게 하기  |
-| Use a TrueType font in all console windows | 윈도우 콘솔에서 트루타입 폰트를 사용  |
-| Check daily for Git for Windows updates | 매일 업데이트 유무 확인하기 |
+|OPTION|EXPLAIN|  
+|---|---:|  
+| Additional Icons - On the Desktop | 바탕화면에 바로가기 아이콘 추가 |  
+| Windows Explorer Integration | 마우스 오른쪽 버튼 클릭 시, GIT 연결 옵션 추가  |  
+| Git LFS (Large File Support) | 용량이 큰 파일 지원  |  
+| Associate .git* configuration files with the default text editor | .gif* 구성파일을 기본 텍스트 편집기와 연결  |  
+| Associate .sh files to be run with Bash | .sh 파일 Bash에서 실행 가능하게 하기  |  
+| Use a TrueType font in all console windows | 윈도우 콘솔에서 트루타입 폰트를 사용  |  
+| Check daily for Git for Windows updates | 매일 업데이트 유무 확인하기 |  
+
 ~~~
 [ Additional Icons - On the Desktop ] 바탕화면에 바로가기 아이콘 추가
 [ Windows Explorer Integration ] 마우스 오른쪽 버튼 클릭 시, GIT 연결 옵션 추가  
