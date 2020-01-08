@@ -106,10 +106,6 @@ Next 클릭
 | Use MinTTY(the default terminal of MSYS2) | MinTTY terminal emulator 사용  |  
 | Use Windows' default console window | Windows 기본 콘솔 사용  |  
 
-|OPTION|EXPLAIN|  
-|---|---|  
-| Use MinTTY(the default terminal of MSYS2) | MinTTY terminal emulator 사용 |  
-| Use Windows' default console window | Windows 기본 콘솔 사용 |  
 어떤 터미널 에뮬레이터를 사용할건지 선택해주세요.  
 
 <br><br>
@@ -170,16 +166,15 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 
 복사가 완료되면,
 ![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_21.jpg){:style="display:block;"}
-[Settings] 탭의 [Repository name]을 변경해 줍니다.  
+**[Settings] 탭의 [Repository name]을 변경해 줍니다.**
 
 
 ![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; "}
-위처럼 [자신의 GITHUB 아이디].github.io로 변경한 후 [Rename]버튼을 클릭해주세요.  
-저는 easydevd가 아이디이기 때문에 easydevd.github.io로 Rename했습니다.  
+위처럼 **자신의 GITHUB 아이디.github.io** 로 변경한 후 [Rename]버튼을 클릭해주세요.  
+저는 easydevd가 아이디이기 때문에 **easydevd.github.io** 로 Rename했습니다.
 
 <br><br>
-
-여기까지 따라하면, 위의 도메인으로 접속했을때, 아래같은 블로그를 볼 수 있습니다.
+여기까지 따라하면, 위의 도메인으로 접속했을때 아래같은 블로그를 볼 수 있습니다 :)
 ![GITHUB BLOG]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_23.JPG)
 
 ## 3. GIT BASH, GIT 과 연결하기
@@ -203,6 +198,6 @@ git config --global user.email "유저이메일"
 
 예를 들면, 저같은 경우에는 **git config --global user.name "easydevd"** 로 할 수 있겠네요.  
 
-<br><br><br>s
+<br><br><br>
 
 다음 포스트에서는, 연결된 GIT BASH를 통해 easydevd.github.io 레파지토리를 로컬 PC에 다운받아 _config.yml 파일을 일부 수정해보겠습니다.
