@@ -103,6 +103,11 @@ Next 클릭
 
 |OPTION|EXPLAIN|  
 |---|---|  
+| Use MinTTY(the default terminal of MSYS2) | MinTTY terminal emulator 사용  |  
+| Use Windows' default console window | Windows 기본 콘솔 사용  |  
+
+|OPTION|EXPLAIN|  
+|---|---|  
 | Use MinTTY(the default terminal of MSYS2) | MinTTY terminal emulator 사용 |  
 | Use Windows' default console window | Windows 기본 콘솔 사용 |  
 어떤 터미널 에뮬레이터를 사용할건지 선택해주세요.  
