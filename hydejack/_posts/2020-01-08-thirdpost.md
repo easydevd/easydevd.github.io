@@ -66,8 +66,17 @@ git clone "GITHUB 프로젝트 URL"
 저는 ATOM을 설치해 보겠습니다.  
 <br>
 [ATOM 사이트](https://atom.io/)에 접속해 [DOWNLOAD]버튼을 눌러 설치를 진행해주세요.  
-![GITHUB BASH]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_3.jpg)
+![ATOM]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_3.jpg)
 
+ATOM을 다 설치헀다면 아톰 실행 후 **[ CTRL + SHIFT + O ]** 를 눌러 아까 다운받은 프로젝트를 열어주세요.  
+또는 왼쪽 상단 **[ FILE - Open Folder... ]** 을 누르시면 됩니다.  
+
+저의 경우는, "C:/GIT/easydevd.github.io"가 열리며 아래와 같은 창이 떴습니다.
+![ATOM]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_4.jpg)
 
 ## 3. 블로그 첫 글 쓰기
-블로그에 글을 포스팅하기 전에 먼저 알아야 할 기본적인 개념들이 몇가지 있습니다.
+블로그에 글을 포스팅하기 전에 먼저 알아야 할 기본적인 개념들이 몇가지 있습니다.  
+
+웹페이지는 보통 HTML, JS, CSS, NODEJS... 등과 같은 언어로 개발이 되는데, JEKYLL에서는 조금 생소한 확장자 파일을 보실 수 있습니다.  
+바로 .md (MarkDown) 언어입니다.
+JEKYLL는 게시글 작성을 위해 MARKDOWN 언어를 사용해 .md 파일을
