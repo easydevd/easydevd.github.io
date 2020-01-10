@@ -130,9 +130,9 @@ description: GITHUB 블로그 시작했습니다 :)
 excerpt_separator: <!--more-->
 last_modified_at: 2020-01-10T14:49
 ---
-{{ page.description }}  
-오늘은 {{ page.last_modified_at }} 입니다.  
-"{% raw %} {{ user}} {% endraw %}"
+"{% raw %} {{page.description}} {% endraw %}"  
+오늘은 "{% raw %} {{page.last_modified_at}} {% endraw %}" 입니다.  
+
 자주 들러주세요.
 </pre>
 "{% raw %} {{ user}} {% endraw %}"
