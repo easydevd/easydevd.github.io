@@ -121,8 +121,8 @@ ATOM을 실행시킨 후, 위에서 열어둔 프로젝트 안의 **hydejack/_po
 
 그런 다음 아래 내용을 복사해 붙여넣고, **오늘날자-test.md** 로 저장해줍니다.  
 **저는 '2020-01-10-test.md'로 저장했습니다.**
+<code>
 ~~~
-<pre>
 ---
 layout: post
 title: GITHUB 블로그 시작
@@ -135,9 +135,8 @@ last_modified_at: 2020-01-10T14:49
 오늘은 {{page.last_modified_at}} 입니다.  
 
 자주 들러주세요.
-</pre>
 ~~~
-
+</code>
 이제 저장해주세요.
 ![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_6.jpg){:style="display:block; height:400px;}
 <br>
