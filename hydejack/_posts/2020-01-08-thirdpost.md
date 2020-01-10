@@ -79,27 +79,32 @@ ATOM을 다 설치헀다면 아톰 실행 후 **[ CTRL + SHIFT + O ]** 를 눌�
 블로그에 글을 포스팅하기 전에 먼저 알아야 할 기본적인 개념들이 몇가지 있습니다.  
 
 웹페이지는 보통 HTML, JS, CSS, NODEJS... 등과 같은 언어로 개발이 되는데, JEKYLL에서는 조금 생소한 확장자 파일을 보실 수 있습니다.  
+<br>
 바로 .md (MarkDown) 언어입니다.  
 JEKYLL는 게시글 작성을 위해 MARKDOWN 언어를 사용해 .md 파일을 개발해야합니다.  
 그리고, 그 밖의 환경설정 등과 같은 제어는 .yml파일에서 수정하시면 됩니다.  
-
-그 중에서도 특히, **_config.yml** 파일은 JEKYLL 동작에 대한 설정 제어를 다루고 있습니다.
-
+<br>
+그 중에서도 특히 기억해야할건,  **_config.yml** 파일은 JEKYLL 동작에 대한 설정 제어를 다루고 있습니다.
+<br>
 앞으로 글을 포스팅할 **_posts** 경로의 md 파일들은 수정이나 추가해도 서버에 자동으로 반영되지만,  
 **_config.yml** 파일은 수정했다면 반드시 재빌드를 해줘야 합니다.  
 **_config.yml** 은 여러 환경 설정과 변수들이 제어하고 있는데, 사이트가 빌드 될때 한번만 읽어들이기 때문입니다.
-
-만약 개발 중 **_config.yml** 파일을 수정했다면, 현재 실행 중인 지킬 서비스를 중단하고, 아래 명령어를 입력해주세요!
+<br>
+만약 개발 중 **_config.yml** 파일을 수정했다면,  
+현재 실행 중인 지킬 서비스를 중단하고, 아래 명령어를 입력해주세요!
 ~~~
 bundle exec jekyll serve
 ~~~
- 파일은
+
 |확장자|내용|  
-|---|---|
-| .md | Markdown을 사용해 작성한 게시글 파일 |     
+|---|---|  
+| .md | Markdown을 사용해 작성한 게시글 파일 |      
 | _config.yml | Jekyll 블로그에 대한 설정값을 제어하는 파일 |     
+위의 표 내용 정도로 이해하시면 될 것 같습니다.  
+<br>
 
 여기까지 이해가 되셨다면, 이제 **_posts** 경로로 이동해 게시글을 써봅시다.  
+<br>
 제가 다운받은 hydejack 테마는 이미 게시글이 여러개 작성되어 있네요.  
 우선 저는 **https://easydevd.github.io/hydejack/** 경로에 md파일을 작성해보겠습니다.  
 
@@ -108,14 +113,16 @@ bundle exec jekyll serve
 ATOM을 실행시킨 후, 위에서 열어둔 프로젝트 안의 **hydejack/_posts** 폴더를 열어주세요.  
 그러면 아래처럼 이미 작성되어 있는 .md 파일이 여러개 보일 것입니다.
 <br>
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_5.jpg)
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_5.jpg){:style="display:block; height:400px;}
 
 해당 경로에서 **[ Ctrl + N ]** 또는 좌측 상단의 **[ File - New File ]** 을 눌러 새창을 열어주세요.  
-아래처럼 새창이 뜨는지 확인해주세요.  
+
+<br>
 
 그런 다음 아래 내용을 복사해 붙여넣고, **오늘날자-test.md** 로 저장해줍니다.  
-저는 '2020-01-10-test.md'로 저장했습니다.
+**저는 '2020-01-10-test.md'로 저장했습니다.**
 ~~~
+<pre>
 ---
 layout: post
 title: GITHUB 블로그 시작
@@ -128,27 +135,28 @@ last_modified_at: 2020-01-10T14:49
 오늘은 {{page.last_modified_at}} 입니다.  
 
 자주 들러주세요.
+</pre>
 ~~~
 
 이제 저장해주세요.
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_6.jpg)
-
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_6.jpg){:style="display:block; height:400px;}
+<br>
 위처럼 저장하고 나면, ATOM에 새로 추가된 파일이 녹색으로 표시됩니다.  
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_7.jpg)
-
 수정한 파일은 노랑, 새로 추가한 파일은 녹색으로 표시되니 개발하실 때 참고해주세요.  
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_7.jpg){:style="display:block;}
+
+
 <br><br>
 
 이제 GIT BASH를 통해 github서버에 올려주면 글쓰기가 완료됩니다.  
-
-GIT BASH에서 방금 생성한 md파일이 있는 경로로 이동해주세요.
+GIT BASH에서 방금 생성한 md파일이 있는 경로로 이동해주세요.  
 ~~~
 cd hydejack/_posts
 ~~~
 
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_8.jpg)
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_8.jpg){:style="display:block; height:400px;}
 제대로 이동했는지, 위처럼 경로를 꼭 확인해주세요!  
-
+<br>
 경로를 확인했다면 이제 커밋만 하면 됩니다.  
 아래 명령어를 복사해서 실행시켜 주세요.
 
@@ -157,7 +165,7 @@ git add '2020-01-10-test.md'
 git commit -m 'test post'
 git push
 ~~~
-
+<br>
 git add 뒤에는 방금 본인이 추가한 md파일명을 작성해주시면 됩니다.  
 git commit -m 뒤의 **'test post'** 는 커밋시 작성할 메시지 입니다.  
 나중에 뭔가를 수정하거나, 커밋할 파일에 특별한 내용이 있다면 그 내용으로 적어주세요.  
@@ -172,7 +180,7 @@ github 계정대로 로그인 해주세요.
 ![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_9.jpg)
 위에 다른 md파일들도 많은데, 간략히 보기위해 이미지를 조금 편집했습니다.  
 해당경로에 방금 작성한 파일이 정상적으로 보이는지 확인해주세요 :)  
-
+<br>
 1~2분후 본인 블로그에 들어가면 방금 추가한 페이지를 볼 수 있습니다.
 접속 경로를 잘 모르겠다면,  
 
