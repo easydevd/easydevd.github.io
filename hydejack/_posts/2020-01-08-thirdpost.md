@@ -101,11 +101,6 @@ bundle exec jekyll serve
 | .md | Markdown을 사용해 작성한 게시글 파일 |  
 | _config.yml | Jekyll 블로그에 대한 설정값을 제어하는 파일 |  
 
-|확장자|내용|  
-|---|---|  
-| .md | MinTTY terminal emulator 사용  |  
-| _config.yml | Windows 기본 콘솔 사용  |  
-
 위의 표 내용 정도로 이해하시면 될 것 같습니다.  
 <br>
 
