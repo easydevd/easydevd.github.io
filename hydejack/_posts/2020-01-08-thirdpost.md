@@ -140,7 +140,7 @@ last_modified_at: 2020-01-10T14:49
 ![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_6.jpg){:style="display:block; height:400px;"}
 <br>
 위처럼 저장하고 나면, ATOM에 새로 추가된 파일이 녹색으로 표시됩니다.  
-수정한 파일은 노랑, 새로 추가한 파일은 녹색으로 표시되니 개발하실 때 참고해주세요.  
+**수정한 파일은 노랑, 새로 추가한 파일은 녹색으로 표시되니 개발하실 때 참고해주세요.**  
 ![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_7.jpg){:style="display:block;"}
 
 
@@ -163,9 +163,8 @@ git add '2020-01-10-test.md'
 git commit -m 'test post'
 git push
 ~~~
-<br>
-git add 뒤에는 방금 본인이 추가한 md파일명을 작성해주시면 됩니다.  
-git commit -m 뒤의 **'test post'** 는 커밋시 작성할 메시지 입니다.  
+**git add 뒤에는 방금 본인이 추가한 md파일명을 작성해주시면 됩니다.**  
+**git commit -m 뒤의 'test post' 는 커밋시 작성할 메시지 입니다.**  
 나중에 뭔가를 수정하거나, 커밋할 파일에 특별한 내용이 있다면 그 내용으로 적어주세요.  
 
 git push 명령어는 최초 실행시, 로그인 하라는 창이 뜰것입니다.  
@@ -175,7 +174,7 @@ github 계정대로 로그인 해주세요.
 
 여기까지 완료했다면, github 사이트에 들어갔을 때 방금 본인이 커밋한 파일을 확인할 수 있습니다.
 
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_9.jpg)
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_9.jpg){:style="display:block; border:solid 1px #00000052;"}
 위에 다른 md파일들도 많은데, 간략히 보기위해 이미지를 조금 편집했습니다.  
 해당경로에 방금 작성한 파일이 정상적으로 보이는지 확인해주세요 :)  
 <br>
