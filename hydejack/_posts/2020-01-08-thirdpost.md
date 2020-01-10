@@ -132,10 +132,10 @@ last_modified_at: 2020-01-10T14:49
 ---
 {{ page.description }}  
 오늘은 {{ page.last_modified_at }} 입니다.  
-
+"{% raw %} {{ user}} {% endraw %}"
 자주 들러주세요.
 </pre>
-
+"{% raw %} {{ user}} {% endraw %}"
 이제 저장해주세요.
 ![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_6.jpg){:style="display:block; height:400px;"}
 <br>
