@@ -88,9 +88,9 @@ JEKYLL는 게시글 작성을 위해 MARKDOWN 언어를 사용해 .md 파일을 
 <br>
 앞으로 글을 포스팅할 **_posts** 경로의 md 파일들은 수정이나 추가해도 서버에 자동으로 반영되지만,  
 **_config.yml** 파일은 수정했다면 반드시 재빌드를 해줘야 합니다.  
-**_config.yml** 은 여러 환경 설정과 변수들이 제어하고 있는데, 사이트가 빌드 될때 한번만 읽어들이기 때문입니다.
+**_config.yml** 은 여러 환경 설정과 변수들을 제어하고 있는데, 사이트가 빌드 될때 한번만 읽어들이기 때문입니다.  
 <br>
-만약 개발 중 **_config.yml** 파일을 수정했다면,  
+그러니 만약 개발 중 **_config.yml** 파일을 수정했다면,  
 현재 실행 중인 지킬 서비스를 중단하고, 아래 명령어를 입력해주세요!
 ~~~
 bundle exec jekyll serve
@@ -102,7 +102,7 @@ bundle exec jekyll serve
 | _config.yml | Jekyll 블로그에 대한 설정값을 제어하는 파일 |  
 
 위의 표 내용 정도로 이해하시면 될 것 같습니다.  
-<br>
+<br><br>
 
 여기까지 이해가 되셨다면, 이제 **_posts** 경로로 이동해 게시글을 써봅시다.  
 <br>
@@ -122,7 +122,7 @@ ATOM을 실행시킨 후, 위에서 열어둔 프로젝트 안의 **hydejack/_po
 
 그런 다음 아래 내용을 복사해 붙여넣고, **오늘날자-test.md** 로 저장해줍니다.  
 **저는 '2020-01-10-test.md'로 저장했습니다.**
-~~~
+<pre>
 ---
 layout: post
 title: GITHUB 블로그 시작
@@ -134,7 +134,7 @@ last_modified_at: 2020-01-10T14:49
 오늘은 {{ page.last_modified_at }} 입니다.  
 
 자주 들러주세요.
-~~~
+</pre>
 
 이제 저장해주세요.
 ![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_6.jpg){:style="display:block; height:400px;"}
