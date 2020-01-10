@@ -131,7 +131,7 @@ excerpt_separator: <!--more-->
 last_modified_at: 2020-01-10T14:49
 ---
 "{% raw %} {{page.description}} {% endraw %}"  
-오늘은 "{% raw %} {{page.last_modified_at}} {% endraw %}" 입니다.  
+오늘은 {% raw %} {{page.last_modified_at}} {% endraw %} 입니다.  
 
 자주 들러주세요.
 </pre>
