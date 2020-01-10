@@ -100,13 +100,13 @@ Next 클릭
 <br><br>
 
 ![GIT BASH_STEP8]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_10.jpg){:style="display:block; height:408px;"}
-
+어떤 터미널 에뮬레이터를 사용할건지 선택해주세요.  
 |OPTION|EXPLAIN|  
 |---|---|  
 | Use MinTTY(the default terminal of MSYS2) | MinTTY terminal emulator 사용  |  
 | Use Windows' default console window | Windows 기본 콘솔 사용  |  
 
-어떤 터미널 에뮬레이터를 사용할건지 선택해주세요.  
+
 
 <br><br>
 
@@ -171,8 +171,8 @@ GIT 설치가 끝났다면 이제 GITHUB 블로그에서 사용할 JEKYLL 테마
 <br>
 
 ![RENAME REPOSITORY]({{ site.baseurl }}/assets/img/docs/blog_secondpost/secondpost_22.jpg){:style="display:block; border:solid 1px #00000052;"}
-위처럼 **자신의 GITHUB 아이디.github.io** 로 변경한 후 [Rename]버튼을 클릭해주세요.  
-저는 easydevd가 아이디이기 때문에 **easydevd.github.io** 로 Rename했습니다.
+위처럼    **자신의 GITHUB 아이디.github.io**    로 변경한 후 [Rename]버튼을 클릭해주세요.  
+저는 easydevd가 아이디이기 때문에    **easydevd.github.io**    로 Rename했습니다.
 
 <br><br>
 여기까지 따라하면, 위의 도메인으로 접속했을때 아래같은 블로그를 볼 수 있습니다 :)
