@@ -97,9 +97,9 @@ bundle exec jekyll serve
 ~~~
 
 |확장자|내용|  
-|---|---|  
-| .md | Markdown을 사용해 작성한 게시글 파일 |      
-| _config.yml | Jekyll 블로그에 대한 설정값을 제어하는 파일 |     
+|---|---|   
+| .md | Markdown을 사용해 작성한 게시글 파일 |  
+| _config.yml | Jekyll 블로그에 대한 설정값을 제어하는 파일 |  
 위의 표 내용 정도로 이해하시면 될 것 같습니다.  
 <br>
 
@@ -143,7 +143,7 @@ last_modified_at: 2020-01-10T14:49
 <br>
 위처럼 저장하고 나면, ATOM에 새로 추가된 파일이 녹색으로 표시됩니다.  
 수정한 파일은 노랑, 새로 추가한 파일은 녹색으로 표시되니 개발하실 때 참고해주세요.  
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_7.jpg){:style="display:block;}
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_7.jpg){:style="display:block;"}
 
 
 <br><br>
@@ -154,7 +154,7 @@ GIT BASH에서 방금 생성한 md파일이 있는 경로로 이동해주세요.
 cd hydejack/_posts
 ~~~
 
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_8.jpg){:style="display:block; height:400px;}
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_8.jpg){:style="display:block; height:400px;"}
 제대로 이동했는지, 위처럼 경로를 꼭 확인해주세요!  
 <br>
 경로를 확인했다면 이제 커밋만 하면 됩니다.  
