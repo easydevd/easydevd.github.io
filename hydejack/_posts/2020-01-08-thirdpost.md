@@ -100,6 +100,12 @@ bundle exec jekyll serve
 |---|---|   
 | .md | Markdown을 사용해 작성한 게시글 파일 |  
 | _config.yml | Jekyll 블로그에 대한 설정값을 제어하는 파일 |  
+
+|확장자|내용|  
+|---|---|  
+| .md | MinTTY terminal emulator 사용  |  
+| _config.yml | Windows 기본 콘솔 사용  |  
+
 위의 표 내용 정도로 이해하시면 될 것 같습니다.  
 <br>
 
@@ -113,7 +119,7 @@ bundle exec jekyll serve
 ATOM을 실행시킨 후, 위에서 열어둔 프로젝트 안의 **hydejack/_posts** 폴더를 열어주세요.  
 그러면 아래처럼 이미 작성되어 있는 .md 파일이 여러개 보일 것입니다.
 <br>
-![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_5.jpg){:style="display:block; height:400px;}
+![hydejack/_posts]({{ site.baseurl }}/assets/img/docs/blog_thirdpost/thirdpost_5.jpg){:style="display:block; height:400px;"}
 
 해당 경로에서 **[ Ctrl + N ]** 또는 좌측 상단의 **[ File - New File ]** 을 눌러 새창을 열어주세요.  
 
@@ -130,9 +136,10 @@ description: GITHUB 블로그 시작했습니다 :)
 excerpt_separator: <!--more-->
 last_modified_at: 2020-01-10T14:49
 ---
-
+<code>
 {{page.description}}  
 오늘은 {{page.last_modified_at}} 입니다.  
+</code>
 
 자주 들러주세요.
 ~~~
