@@ -19,7 +19,7 @@ hydejack 테마의 **_config.yml** 은 주석이 잘 달려있어, 수정하시�
 <br><br>
 
 파일이 정상적으로 열렸다면, 아래 노란색으로 표시된 부분들을 수정해줍니다.
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_2.jpg){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_2.jpg){:style="display:block; width: 700px; border:solid 1px #00000052;"}
 
 ~~~
 url : 본인의 GITHUB 블로그 주소  
@@ -42,51 +42,52 @@ git push
 ~~~
 
 위 명령어까지 수행하고, 조금 기다린 후 블로그에 접속하면 아래와 같이 수정된 것을 확인할 수 있습니다.  
-전 포스트 중에, *_config.yml* 은 수정 후, 서버에 재반영하는 명령어를 추가로 수행해줘야 한다고 작성했었는데  
+전 포스트 중에, *_config.yml* 은 수정 후, 서버에 재반영하는 명령어를 추가로 수행해줘야 한다고 작성했었는데
 굳이 실행시키지 않아도 반영되네요..  
 하지만 혹시라도 저 위 명령어 만으로 반영 안되시는 분이 계시다면, 전 포스트에 작성한 명령어 추가로 수행해 보시길 바랍니다.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_4_1.jpg){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_4_1.jpg){:style="display:block; width:250px; margin:auto; border:solid 1px #00000052;"}
 
+<br><br>
 
 스크롤은 내려 아래부분을 더 수정해볼께요.
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_5.jpg){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_5.jpg){:style="display:block; width: 700px; border:solid 1px #00000052;"}
 ~~~
 logo : sidebar에 있는 로고 이미지  
 author : 본인 기준으로 이름, 이메일 등을 수정  
 menu : 블로그 메뉴 정보  
 ~~~
 
-로고에 프로필 이미지를 사용할 수도 있지만, 당장은 생각이 없어서 저는 #을 사용해 주석을 걸어뒀습니다.  
-author에 대한 더 자세한 내용은, *_data/authors.yml* 을 수정해야 합니다.  
+로고에 프로필 이미지를 사용할 수도 있지만, 당장은 생각이 없어서 저는 #을 사용해 주석을 걸었습니다.  
+author에 대한 더 자세한 내용은, **_data/authors.yml** 을 수정해야 합니다.  
 나중에 기회 있으면, 저 부분 내용도 추가로 업로드 해볼께요 :)  
 menu는 말 그대로 좌측에 보이는 메뉴에 대한 정보를 말합니다.  
 본인이 작성하고 싶은 글 위주로 카테고리를 만들어 수정하시면 됩니다.  
 
 <br><br>
-여기까지 한 뒤 반영하면, 아래처럼 로고 이미지가 없어진 모습을 확인할 수 있습니다.  
+여기까지 수정한 뒤 반영하면, 아래처럼 로고 이미지가 없어진 모습을 확인할 수 있습니다.  
 메뉴 정보를 바꾸셨다면, 아래 메뉴 목록도 같이 수정됬을거라 생각되네요.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_6.jpg){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_6.jpg){:style="display:block;width:250px; margin:auto; border:solid 1px #00000052;"}
 
 
 <br><br>
 이제는 sidebar에 있는 이미지를 지우고, 메인 컬러를 변경해보려 합니다.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_9.jpg){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_9.jpg){:style="display:block; width: 700px;  border:solid 1px #00000052;"}
 
 ~~~
 permalink : 접속 경로  
 paginate : 한 페이지에 보여줄 게시글 수  
-paginate_path : 페이징할 경로 (현재 기준으로 1p는 path를 붙일 필요 없고, '/page-2/'.. 등을 붙이면 pagination 된다.)
+paginate_path : 페이징할 경로 (위 기준으로, 1p는 path를 붙일 필요 없고, '/page-2/'.. 등을 붙이면 pagination 된다.)
 accent_image : sidebar 배경 이미지  
 accent_color : hydejack 기본 테마 기준, 청색  
 theme_color : sidebar의 기본색  
 ~~~
 
-저는 accent_image는 사용하고 싶지 않아서, none 옵션을 주어 이미지가 더 이상 뜨지 않게 수정했습니다.  
+저는 accent_image는 사용하고 싶지 않아, none 옵션을 주어 이미지가 더 이상 뜨지 않게 수정했습니다.  
 이미지가 제거되면, 아래처럼 보이겠네요.  
 theme_color는  rgb(25,55,71)로 수정 후, 개발자 도구에서 background-color를 잡으면  rgb(25,55,71)로 잡힙니다.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_8.jpg){:style="display:block; border:solid 1px #00000052;"}
-
-accent_color를 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니다.  
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_8.jpg){:style="display:block; width:250px; margin:auto;border:solid 1px #00000052;"}
+<br>
+accent_color는 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니다.  
 왼쪽이 수정 전, 오른쪽이 수정 후 입니다.  
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_7.jpg){:style="display:block; border:solid 1px #00000052;"}
 
