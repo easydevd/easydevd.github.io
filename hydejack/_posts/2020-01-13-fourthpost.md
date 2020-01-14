@@ -50,7 +50,7 @@ git push
 <br><br>
 
 스크롤을 내려 아래부분을 더 수정해볼께요.
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_5.jpg){:style="display:block; width: 700px; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_5.jpg){:style="display:block; width: 600px; border:solid 1px #00000052;"}
 ~~~
 logo : sidebar에 있는 로고 이미지  
 author : 본인 기준으로 이름, 이메일 등을 수정  
@@ -59,13 +59,14 @@ menu : 블로그 메뉴 정보
 
 로고에 프로필 이미지를 사용할 수도 있지만, 당장은 생각이 없어서 저는 #을 사용해 주석을 걸었습니다.  
 **_author에 대한 더 자세한 내용은, data/authors.yml 을 수정해야 합니다.**  
-나중에 기회 있으면, 저 부분 내용도 추가로 업로드 해볼께요 :)  
+해당 부분은 아래에서 다뤄볼께요.  
 menu는 말 그대로 좌측에 보이는 메뉴에 대한 정보를 말합니다.  
 본인이 작성하고 싶은 글 위주로 카테고리를 만들어 수정하시면 됩니다.  
 
 <br><br>
 여기까지 수정한 뒤 반영하면, 아래처럼 로고 이미지가 없어진 모습을 확인할 수 있습니다.  
 메뉴 정보를 바꾸셨다면, 아래 메뉴 목록도 같이 수정됬을거라 생각되네요.  
+<br>
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_6.jpg){:style="display:block;width:250px; margin:auto; border:solid 1px #00000052;"}
 
 
@@ -84,9 +85,9 @@ theme_color : sidebar의 기본색
 
 저는 accent_image는 사용하고 싶지 않아, none 옵션을 주어 이미지가 더 이상 뜨지 않게 수정했습니다.  
 이미지가 제거되면, 아래처럼 보이겠네요.  
-theme_color는  rgb(25,55,71)로 수정 후, 개발자 도구에서 background-color를 잡으면  rgb(25,55,71)로 잡힙니다.  
+theme_color는  rgb(25,55,71)로 수정 후, 개발자 도구에서 background-color를 잡으면  rgb(25,55,71)로 보입니다.  
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_8.jpg){:style="display:block; width:250px; margin:auto;border:solid 1px #00000052;"}
-<br>
+<br><br>
 accent_color는 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니다.  
 왼쪽이 수정 전, 오른쪽이 수정 후 입니다.  
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_7.jpg){:style="display:block; border:solid 1px #00000052;"}
