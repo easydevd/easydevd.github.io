@@ -7,7 +7,7 @@
     {% include components/hy-img.html class="avatar" img=author.picture alt=author.name %}
   {% elsif plugins contains 'jekyll-avatar' %}
     {% assign avatar = author.social.github | default:author.github.username | default:author.github  %}
-    {% include components/avatar-tag.html user=avatar %}
+    <!--{% include components/avatar-tag.html user=avatar %}-->
   {% endif %}
 
   {% assign heading_tag = include.heading_tag | default:'h2' %}
