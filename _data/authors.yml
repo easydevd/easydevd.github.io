@@ -1,7 +1,7 @@
 # The primary author of this blog.
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
-author1: <
+author1:
   name:              <CHO> <SUNGMI>
   email:             <sungmia98@gmail.com>
 
@@ -9,7 +9,7 @@ author1: <
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
     You Can Send me Email <sungmia98@gmail.com>
-    <br>
+    <br>  
     Thank U for Inviting
 
   # This photo will be used in the about section
