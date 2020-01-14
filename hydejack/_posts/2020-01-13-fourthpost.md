@@ -104,6 +104,8 @@ accent_color는 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니�
 
 <br><br>
 
+**_data/authors.xml 파일을 열고 아래처럼 수정해주세요.**  
+**단, 위에서 수정한, _config.yml의 author과 동일하게 작성해야 합니다**
 ![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_12.jpg){:style="display:block; border:solid 1px #00000052;"}
 
 그 다음 About과 이미지경로를 수정해줍니다.  
