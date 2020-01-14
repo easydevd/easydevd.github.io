@@ -1,6 +1,6 @@
 ---
 layout: post
-title: WINDOW에서 GITHUB 블로그 만들기 STEP 4 [ _config.yml 수정하기 ]
+title: WINDOW에서 GITHUB 블로그 만들기 STEP 4 [ _config.yml, _authors.yml 수정 ]
 description: GITHUB 블로그 만들기 STEP 4
 excerpt_separator: <!--more-->
 ---
