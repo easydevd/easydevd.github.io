@@ -23,7 +23,7 @@ description: >
 ---
 ~~~
 
-layout : 게시글 display 형태 [list, post]    
+layout : 게시글 display 형태 [*_layouts* 폴더 참조]    
 title : 경로 제목 [브라우저 탭에 표시할 타이틀]  
 slug : url  
 menu : true
