@@ -112,6 +112,7 @@ accent_color는 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니�
 ![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_14_1.jpg){:style="display:block;width:500px;border:solid 1px #00000052;"}
 
 이미지도 본인이 사용하고 싶은걸로 변경해주세요.  
+아래는 제가 수정한 ABOUT 내용입니다.  
 ~~~
 You Can Send me Email <본인 이메일>  
 Thank U for Inviting
@@ -122,7 +123,8 @@ Thank U for Inviting
 
 social 부분도 수정해주세요.  
 자신이 추가하고 싶은 SNS게정을 등록하시면 됩니다.  
+저는 github와 email계정만 등록했어요.  
 
 <br><br>
 여기까지 한 후 반영하면 아래처럼 변경됩니다.  
-![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_15.jpg){:style="display:block; border:solid 1px #00000052;"}
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_15_2.jpg){:style="display:block; border:solid 1px #00000052;"}
