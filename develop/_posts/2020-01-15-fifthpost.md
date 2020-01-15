@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 **/develop** 이라는 경로를 생성해, 개발 관련 포스트를 이곳에 작성할 예정입니다.  
 
-우선 루트 경로의 **_featured_tags경로로 이동해 develop.md 파일을 생성해주세요.**
+우선 루트 경로의 **_featured_tags폴더로 이동해 develop.md 파일을 생성해주세요.**
 ~~~develop.md
 ---
 layout: list
@@ -23,27 +23,34 @@ description: >
 ---
 ~~~
 
-layout : 게시글 display 형태 (post...)  
-title : 경로 제목 [브라우저 탭에 표시될 내용]  
+layout : 게시글 display 형태 [list, post]    
+title : 경로 제목 [브라우저 탭에 표시할 타이틀]  
 slug : url  
-menu : true [메뉴 display : true]  
+menu : true
 order : 왼쪽 사이드 바에서 보여질 메뉴 순서입니다.  
 description : 해당 경로에 포스팅 될 게시글에 대한 설명  
 
-새 md 파일을 작성하지 않고, hydejack.md 파일을 수정해 사용하셔도 무관합니다. 대신 파일 명까지 함께 변경해주세요.  
+**새 md 파일을 작성하지 않고, hydejack.md 파일을 수정해 사용하셔도 무관합니다. 대신 파일 명까지 함께 변경해주세요.**  
 
+<br>
 다음은 *_config.yml* 파일의 menu 정보를 수정해야 합니다.  
 **_config.yml 파일을 열어, 새로 사용할 메뉴 이름과 경로를 수정해주세요**
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fifthpost/fifthpost_1.jpg){:style="display:block; width: 600px; border:solid 1px #00000052;"}
 
-이제 /develop 경로에 작성할 md 파일들이 있을 경로를 생성해주어야 합니다.  
+~~~
+- title:             Develop
+  url:               /develop/  
+~~~
+
+**이제 /develop 경로에 작성할 md 파일들이 있을 경로를 생성해주어야 합니다.**  
 **기존 hydejack/_posts를 develop/_posts로 수정해주세요.**   
+<br>
 hydejack 경로를 추후 재사용할 예정이라면, 삭제하지 말고 hydejack폴더를 통째로 복사한 후  
 develop이라는 이름으로 rename 시켜주면 됩니다.  
-
+<br><br>
 여기까지 수정했다면 이제 git bash를 통해 수정한 파일들을 모두 커밋해주세요.  
-하위 경로의 모든 파일과 폴더를 한번에 add 하려면, 해당 경로로 이동 한 후
-아래 명령어를 사용하면 됩니다.
+**하위 경로의 모든 파일과 폴더를 한번에 add 하려면, 해당 경로로 이동 한 후
+아래 명령어를 사용하면 됩니다.**
 ~~~
 git add .
 ~~~
