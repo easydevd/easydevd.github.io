@@ -50,7 +50,7 @@ git push
 <br><br>
 
 스크롤을 내려 아래부분을 더 수정해볼께요.
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_5.jpg){:style="display:block; width: 600px; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_5_1.jpg){:style="display:block; width: 600px; border:solid 1px #00000052;"}
 ~~~
 logo : sidebar에 있는 로고 이미지  
 author : 본인 기준으로 이름, 이메일 등을 수정  
@@ -72,7 +72,7 @@ menu는 말 그대로 좌측에 보이는 메뉴에 대한 정보를 말합니�
 
 <br><br>
 이제는 sidebar에 있는 이미지를 지우고, 메인 컬러를 변경해보려 합니다.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_9.jpg){:style="display:block; width: 700px;  border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_9.jpg){:style="display:block; width: 600px;  border:solid 1px #00000052;"}
 
 ~~~
 permalink : 접속 경로  
@@ -95,3 +95,32 @@ accent_color는 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니�
 <br><br>
 
 여기까지 수정하면, 정말 기본적인 *_config.yml* 을 수정했다고 볼 수 있겠네요.  
+
+## 2. authors.xml
+마크다운을 사용해 포스트를 작성하고 들어가면, 글 하단 부분에 아래와 같은 부분을 찾을 수 있습니다.  
+노란색으로 표시되어 있는 **"_data/authors.xml"** 을 수정해봅시다.  
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_11.jpg){:style="display:block; width: 650px; border:solid 1px #00000052;"}
+
+
+<br><br>
+
+**_data/authors.xml 파일을 열고 아래처럼 수정해주세요.**  
+**단, 위에서 수정한, _config.yml의 author과 동일하게 작성해야 합니다**
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_12.jpg){:style="display:block; border:solid 1px #00000052;"}
+
+그 다음 About과 이미지경로를 수정해줍니다.  
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_13.jpg){:style="display:block; border:solid 1px #00000052;"}
+
+저는 프로필 이미지는 삭제하고 싶어 주석을 걸어뒀어요.  
+About에는 본인이 쓰고 싶은 말을 적으시면 됩니다.  
+~~~
+You Can Send me Email <본인 이메일>  
+Thank U for Inviting
+~~~
+
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_14.jpg){:style="display:block; border:solid 1px #00000052;"}
+social 부분도 수정해주세요. 자신이 추가하고 싶은 SNS게정을 등록하시면 됩니다.  
+
+<br><br>
+여기까지 한 후 반영하면 아래처럼 변경됩니다.  
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_15.jpg){:style="display:block; border:solid 1px #00000052;"}
