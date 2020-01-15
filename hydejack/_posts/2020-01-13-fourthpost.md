@@ -106,21 +106,20 @@ accent_color는 저처럼 수정하시면, 아래처럼 css가 잡히게 됩니�
 
 **_data/authors.xml 파일을 열고 아래처럼 수정해주세요.**  
 **단, 위에서 수정한, _config.yml의 author과 동일하게 작성해야 합니다**
-![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_12.jpg){:style="display:block; border:solid 1px #00000052;"}
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_12_1.jpg){:style="display:block; width:500px; border:solid 1px #00000052;"}
 
 그 다음 About과 이미지경로를 수정해줍니다.  
-![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_13.jpg){:style="display:block; border:solid 1px #00000052;"}
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_13.jpg){:style="display:block;width:500px;border:solid 1px #00000052;"}
 
-저는 프로필 이미지는 삭제하고 싶어 주석을 걸어뒀어요.  
-About에는 본인이 쓰고 싶은 말을 적으시면 됩니다.  
+이미지도 본인이 사용하고 싶은걸로 변경해주세요.
 ~~~
 You Can Send me Email <본인 이메일>  
 Thank U for Inviting
 ~~~
 
-![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_14.jpg){:style="display:block; border:solid 1px #00000052;"}
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_14_1.jpg){:style="display:block;width:500px;border:solid 1px #00000052;"}
 social 부분도 수정해주세요. 자신이 추가하고 싶은 SNS게정을 등록하시면 됩니다.  
 
 <br><br>
 여기까지 한 후 반영하면 아래처럼 변경됩니다.  
-![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_15.jpg){:style="display:block; border:solid 1px #00000052;"}
+![authors.xml]({{ site.baseurl }}/assets/img/docs/blog_fourthpost/fourthpost_15_2.jpg){:style="display:block; border:solid 1px #00000052;"}
