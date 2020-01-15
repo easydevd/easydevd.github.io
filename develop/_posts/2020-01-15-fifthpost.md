@@ -35,7 +35,7 @@ description : 해당 경로에 포스팅 될 게시글에 대한 설명
 <br>
 다음은 *_config.yml* 파일의 menu 정보를 수정해야 합니다.  
 **_config.yml 파일을 열어, 새로 사용할 메뉴 이름과 경로를 수정해주세요**
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fifthpost/fifthpost_1.jpg){:style="display:block; width: 600px; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fifthpost/fifthpost_1.jpg){:style="display:block; width: 420px; border:solid 1px #00000052;"}
 
 ~~~
 - title:             Develop
@@ -60,5 +60,6 @@ git add . 명령어를 사용하면 해당 경로의 파일이 모두 추가됩�
 
 <br><br>
 
-반영이 완료된 후 다시 블로그에 접속하면, 아래 표시한 부분들이 모두 정상적으로 수정되었음을 확인 할 수 있습니다.
+반영이 완료된 후 다시 블로그에 접속하면,  
+아래 표시한 부분들이 모두 정상적으로 수정되었음을 확인 할 수 있습니다.
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_fifthpost/fifthpost_3.jpg){:style="display:block; border:solid 1px #00000052;"}
