@@ -10,11 +10,15 @@ excerpt_separator: <!--more-->
 
 현재 블로그 탭은 아래와 같이 보여지고 있습니다.  
 저는 빨간 부분을 수정해보려 합니다.  
-![favicon]({{ site.baseurl }}/assets/img/docs/blog_sixthpost/sixthpost_1.jpg){:style="display:block; width: 420px; border:solid 1px #00000052;"}
+![favicon]({{ site.baseurl }}/assets/img/docs/blog_sixthpost/sixthpost_1.jpg){:style="display:block; width: 300px; border:solid 1px #00000052;"}
 
-우선 **\_includes\head\links.html 파일을 열어 내용을 확인해주세요.**
-그 중 '/assets/icons/favicon.ico'와 '/assets/icons/icon.png'로 인해 위와 같은 아이콘이 뜨는 것 입니다.  
-![favicon]({{ site.baseurl }}/assets/img/docs/blog_sixthpost/sixthpost_2.jpg){:style="display:block; width: 420px; border:solid 1px #00000052;"}
+<br>
+
+우선 **\_includes\head\links.html 파일을 열어 내용을 확인해주세요.**  
+**그 중 '/assets/icons/favicon.ico'와 '/assets/icons/icon.png'로 인해 위와 같은 아이콘이 뜨는 것 입니다.**  
+![favicon]({{ site.baseurl }}/assets/img/docs/blog_sixthpost/sixthpost_2.JPG){:style="display:block; width: 420px; border:solid 1px #00000052;"}
+
+<br>
 
 그럼 사용할 favicon이미지를 고른 후, format에 맞게 사이즈와 확장자를 수정해 봅시다.  
 저는 프로필 이미지로 수정할 예정입니다.  
