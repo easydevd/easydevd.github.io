@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: redirect
 title: Hyde
 slug: hyde
 menu: true
