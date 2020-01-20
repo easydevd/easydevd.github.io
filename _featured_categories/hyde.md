@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: default
 title: Hyde
 slug: hyde
 menu: true
