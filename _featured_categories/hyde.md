@@ -1,5 +1,5 @@
 ---
-layout: not-found
+layout: page
 title: Hyde
 slug: hyde
 menu: true
