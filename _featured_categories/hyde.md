@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Hyde
 slug: hyde
 menu: true
