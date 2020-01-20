@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 title: Hyde
 slug: hyde
 menu: true
