@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: blog
 title: Hyde
 slug: hyde
 menu: true
