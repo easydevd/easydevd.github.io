@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: compress
 title: Hyde
 slug: hyde
 menu: true
