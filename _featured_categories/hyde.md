@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: not-found
 title: Hyde
 slug: hyde
 menu: true
