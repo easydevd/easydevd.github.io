@@ -51,8 +51,8 @@ menu:
     url:               /develop/
   - title:             Error
     url:               /error/
-#  - title:             Documentation
-#    url:               /docs/
+  - title:             Documentation
+    url:               /docs/
   - title:             About
     url:               /READEME/
 
