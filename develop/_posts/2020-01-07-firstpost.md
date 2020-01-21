@@ -3,6 +3,8 @@ layout: post
 title: WINDOW에서 GITHUB 블로그 만들기 STEP 1 [ RUBY, JEKYLL 설치 ]
 description: GITHUB 블로그 만들기 STEP 1
 excerpt_separator: <!--more-->
+categories: [GITHUB, jekyll]
+tags:       [GITHUB, jekyll]
 ---
 
 오늘은 Github를 사용한 블로그를 만들어 보려고 합니다.  
