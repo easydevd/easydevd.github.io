@@ -51,8 +51,6 @@ menu:
     url:               /develop/
   - title:             Error
     url:               /eror/
-  - title:             Error
-    url:               /docs/
   - title:             About
     url:               /about/
 
