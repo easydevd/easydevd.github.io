@@ -49,10 +49,10 @@ author:
 menu:
   - title:             Develop
     url:               /develop/
-  - title:             Hyde
-    url:               /hyde/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Error
+    url:               /error/
+#  - title:             Documentation
+#    url:               /docs/
   - title:             About
     url:               /about/
 
