@@ -51,7 +51,7 @@ menu:
     url:               /develop/
   - title:             Error
     url:               /hyde/
-  - title:             Documentation
+  - title:             Error
     url:               /docs/
   - title:             About
     url:               /about/
