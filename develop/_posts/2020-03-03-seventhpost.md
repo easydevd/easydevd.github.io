@@ -52,11 +52,44 @@ Sitemap이란
 쉽게 어느 링크들이 유효한지 검색 엔진이 쉽게 알아 들을 수 있도록 제출하는 파일입니다.  
 <br>
 작성은 2가지 방법이 있습니다.
-**1. jekyll-sitemap 플러그인 사용**  
+**1. jekyll-sitemap 플러그인 사용**<br>
 **2. 직접 Sitemap 작성하기**  
 <br>
 1.번 방법은 **'_config.yml'** 에 jekyll-sitemap 플러그인을 추가하는 소스를 적어주면 됩니다.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_10.JPG){:style="display:block; border:solid 1px #00000052;"}
+plugins에 'jekyll-sitemap'을 추가해주세요.  
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_10.jpg){:style="display:block; border:solid 1px #00000052;"}
 <br>
-2.번 방법은 가장 상위 경로에 'sitemap.xml' 파일을 만들고 아래 소스를 복붙해 넣어주세요.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_10.JPG){:style="display:block; border:solid 1px #00000052;"}
+2.번 방법은 가장 상위 경로에 'sitemap.xml' 파일을 만들고 아래 소스를 통째로 복붙해 넣어주세요.  
+~~~sitemap.xml
+
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for post in site.posts %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if post.lastmod == null %}
+        <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+        <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% endif %}
+
+      {% if post.sitemap.changefreq == null %}
+        <changefreq>weekly</changefreq>
+      {% else %}
+        <changefreq>{{ post.sitemap.changefreq }}</changefreq>
+      {% endif %}
+
+      {% if post.sitemap.priority == null %}
+          <priority>0.5</priority>
+      {% else %}
+        <priority>{{ post.sitemap.priority }}</priority>
+      {% endif %}
+
+    </url>
+  {% endfor %}
+</urlset>
+
+~~~
