@@ -17,29 +17,30 @@ excerpt_separator: <!--more-->
 [`Google Search Console`](https://search.google.com/search-console/about).를 클릭해
 Google Search Console에 접속해주세요.
 
-자신의 깃허브블로그 주소를 복사해 아래처럼 붙여넣기 해줍니다.
+자신의 깃허브 블로그 주소를 복사해 아래처럼 붙여넣기 해줍니다.
 ![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_2.JPG){:style="display:block; border:solid 1px #00000052;"}
 
 <br>
 
-계속 버튼을 누르면 아래처럼 팝업이 뜹니다.
+계속 버튼을 누르면 아래처럼 팝업이 뜹니다.<br>
 팝업의 인증서 파일을 다운받아, 루트경로에 붙여넣어주세요!
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_3.JPG){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_3.JPG){:style="display:block; border:solid 1px #00000052;width:500px;"}
 
 <br>
 붙여넣고 조금 기다리면, 소유권을 인증받을 수 있습니다.
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_4.JPG){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_4.JPG){:style="display:block; border:solid 1px #00000052;width:600px;"}
 
 
 <br><br>
 인증이 완료되면, 아래같은 화면에 접속할 수 있습니다.  
 URL 등록을 조금 빨리 하고 싶다면, URL검사 창을 눌러보세요.  
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_5.JPG){:style="display:block; border:solid 1px #00000052;"}
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_5.JPG){:style="display:block; border:solid 1px #00000052;width:800px;"}
 
-구글에서 본인의 블로그가 나오려면 '크롤링'이라는 작업이 필요합니다.
+구글에서 본인의 블로그가 나오려면 '크롤링'이라는 작업이 필요합니다.<br>
 '크롤링'은, 검색엔진이 깃허브 블로그에 들어있는 내용을 읽어가는 작업정도로 이해하시면 됩니다.  
-저처럼 구글이 조금이라도 빨리 크롤링 작업을 완료했으면 하는 분들은 'URL검사 창'의 '색인 생성 요청'버튼을 눌러주세요!
-![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_6.JPG){:style="display:block; border:solid 1px #00000052;"}
+저처럼 구글이 조금이라도 빨리 크롤링 작업을 완료했으면 하는 분들은 <br>
+ 'URL검사 창'의 '색인 생성 요청'버튼을 눌러주세요!
+![_config.yml OPEN]({{ site.baseurl }}/assets/img/docs/blog_eighthpost/img_6.JPG){:style="display:block; border:solid 1px #00000052;width:800px;"}
 
 이제 크롤링이 완료될 떄까지, 몇일 여유를 두고 기다려주면 됩니다!
 
